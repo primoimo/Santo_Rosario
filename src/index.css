@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "EB Garamond", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Cinzel", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+
+  --color-gold: #C9A84C;
+  --color-gold-light: #F0D080;
+  --color-deep-blue: #0D1B2A;
+  --color-midnight: #060E16;
+  --color-parchment: #F5ECD7;
+  --color-parchment-dark: #E8D9BE;
+  --color-text-primary: #1A1209;
+  --color-text-muted: #7A6A50;
+  --color-white: #FFFFFF;
+}
+
+body {
+  background-color: var(--color-midnight);
+  color: var(--color-parchment);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+}
